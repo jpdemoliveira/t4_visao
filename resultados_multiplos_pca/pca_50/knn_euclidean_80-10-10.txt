@@ -1,0 +1,27 @@
+[CLASSIFICADOR: kNN]
+PCA: 50 componentes
+Distância: euclidean
+Divisão treino/val/teste: 80/10/10
+
+Acurácia Validação: 98.21%
+Acurácia Teste: 97.63%
+Tempo de Treinamento: 0.00 segundos
+Tempo de Predição: 0.47 segundos
+
+Relatório de Classificação (Teste):
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99       683
+           1       0.98      0.99      0.98       800
+           2       0.97      0.98      0.98       674
+           3       0.96      0.96      0.96       760
+           4       0.98      0.97      0.97       611
+           5       0.98      0.97      0.97       658
+           6       0.98      0.99      0.99       677
+           7       0.98      0.98      0.98       724
+           8       0.99      0.96      0.97       693
+           9       0.97      0.96      0.96       720
+
+    accuracy                           0.98      7000
+   macro avg       0.98      0.98      0.98      7000
+weighted avg       0.98      0.98      0.98      7000

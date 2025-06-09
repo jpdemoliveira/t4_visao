@@ -1,0 +1,26 @@
+[CLASSIFICADOR: Regressão Logística]
+PCA: 50 componentes
+Divisão treino/val/teste: 80/10/10
+
+Acurácia Validação: 91.10%
+Acurácia Teste: 90.50%
+Tempo de Treinamento: 5.34 segundos
+Tempo de Predição: 0.00 segundos
+
+Relatório de Classificação (Teste):
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.96       683
+           1       0.93      0.97      0.95       800
+           2       0.88      0.88      0.88       674
+           3       0.88      0.87      0.87       760
+           4       0.90      0.91      0.90       611
+           5       0.87      0.86      0.86       658
+           6       0.93      0.95      0.94       677
+           7       0.91      0.93      0.92       724
+           8       0.89      0.82      0.85       693
+           9       0.89      0.88      0.89       720
+
+    accuracy                           0.91      7000
+   macro avg       0.90      0.90      0.90      7000
+weighted avg       0.90      0.91      0.90      7000

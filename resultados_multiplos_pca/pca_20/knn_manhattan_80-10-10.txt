@@ -1,0 +1,27 @@
+[CLASSIFICADOR: kNN]
+PCA: 20 componentes
+Distância: manhattan
+Divisão treino/val/teste: 80/10/10
+
+Acurácia Validação: 97.31%
+Acurácia Teste: 96.57%
+Tempo de Treinamento: 0.00 segundos
+Tempo de Predição: 0.51 segundos
+
+Relatório de Classificação (Teste):
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       683
+           1       0.98      0.99      0.98       800
+           2       0.96      0.97      0.96       674
+           3       0.95      0.95      0.95       760
+           4       0.97      0.96      0.96       611
+           5       0.96      0.96      0.96       658
+           6       0.98      0.99      0.98       677
+           7       0.98      0.96      0.97       724
+           8       0.96      0.93      0.95       693
+           9       0.95      0.96      0.95       720
+
+    accuracy                           0.97      7000
+   macro avg       0.97      0.97      0.97      7000
+weighted avg       0.97      0.97      0.97      7000
